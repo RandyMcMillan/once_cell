@@ -1,0 +1,7 @@
+[package]
+name = "once_cell"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+async-std = { version = "1.13.1", features = ["async-process", "attributes", "futures-core", "std"] }
